@@ -1,4 +1,6 @@
 import './style.css'
+import '../node_modules/prosemirror-menu/style/menu.css'
+import '../node_modules/prosemirror-example-setup/style/style.css'
 
 import { EditorState } from "prosemirror-state";
 import { EditorView } from "prosemirror-view";
@@ -29,7 +31,6 @@ if (initialContent) {
 
 // editor state
 let editorState = EditorState.create(editorStateConfig);
-
 
 
 // editor view
